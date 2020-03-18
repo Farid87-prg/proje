@@ -1,1 +1,440 @@
-*{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}body{background:#fff;font-family:Arial,Helvetica,sans-serif;font-size:.7rem}a{text-decoration:none;color:#9f9f7b;font-weight:bold}section{width:80%;margin:auto}.main-header{margin:3rem auto;width:80%}.main-header .container .navbar{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.main-header .container .navbar img{height:1.5rem}.main-header .container .navbar ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:0}.main-header .container .navbar ul li{list-style:none;margin-left:.7rem}.main-header .container .navbar ul li hr{width:2rem;color:#9f9f7b}.main-header .container .navbar ul:first-child{margin-left:0}.main-header .container .navbar a:hover{color:#000}.showcase{width:80%;margin:0 auto;padding:0;height:560px}.showcase .container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:500px;background:#E1EAF9;border-radius:2rem}.showcase .container>div{display:block;width:50%}.showcase .container>div h1{font-size:2.5rem;font-weight:bold;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#0f1137;padding:0 5rem}.showcase .container>div h1 span{color:#0601fd}.showcase .container>div form{margin-top:3.5rem;height:4rem;display:-webkit-box;display:-ms-flexbox;display:flex}.showcase .container>div form input{width:70%;height:100%;border:none;background:#fff;margin-left:4rem;border-top-left-radius:.5rem;border-bottom-left-radius:.5rem;padding:1.5rem;font-size:1rem}.showcase .container>div form input::-webkit-input-placeholder{font-size:1rem}.showcase .container>div form input:-ms-input-placeholder{font-size:1rem}.showcase .container>div form input::-ms-input-placeholder{font-size:1rem}.showcase .container>div form input::placeholder{font-size:1rem}.showcase .container>div form button{width:10%;height:100%;border:none;border-top-right-radius:.5rem;border-bottom-right-radius:.5rem;background:#fff}.showcase .container img{z-index:0;height:90%;margin:auto;margin-top:6.5rem;margin-right:2rem}.categories{margin-top:2rem;margin-bottom:5rem}.categories .container .categori-title{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-size:1rem;margin-bottom:2rem}.categories .container .categori-title .title{color:#0f1137}.categories .container .boxes{display:-ms-grid;display:grid;-ms-grid-columns:(1fr)[6];grid-template-columns:repeat(6, 1fr);grid-gap:1rem}.categories .container .box{background-color:#f0f5fd;height:10rem;border-radius:1rem;padding:3rem;text-align:center;margin-top:.5rem}.categories .container .box h3{margin-top:.4rem;color:#0f1137}.categories .container .box.active{height:11rem;color:#fff;background-color:#0601fc;margin-top:0}.categories .container .box.active h3{color:#fff}.jobs{margin-top:5rem}.jobs .container{display:-webkit-box;display:-ms-flexbox;display:flex}.jobs .container .filter{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:30%}.jobs .container .filter form{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;font-size:.8rem}.jobs .container .filter form input[type=checkbox]{margin-right:.5rem;background-color:blue}.jobs .container .filter h4{font-size:1rem;color:#9f9fb7;padding-top:2rem;padding-bottom:1rem}.jobs .container .filter label{margin:.7rem 0}.jobs .container .list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:centert;-ms-flex-align:centert;align-items:centert;width:100%;margin-left:8rem}.jobs .container .list h1{font-size:2rem;padding-left:2rem;margin:2rem 0;margin-top:3rem;color:#0f1137}.jobs .container .list ul{width:100%;list-style-type:none}.jobs .container .list ul .none{border:none}.jobs .container .list ul li{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:1px solid #9f9fb7;border-radius:1rem;margin:1rem 0;padding-right:1rem}.jobs .container .list ul li img{padding:2rem}.jobs .container .list ul li .list-items{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%}.jobs .container .list ul li .list-items div{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;font-size:1rem}.jobs .container .list ul li .list-items div h3{font-size:.9rem;color:#0f1137}.jobs .container .list ul li .list-items div small{color:#9f9fb7}.jobs .container .list ul li .list-items div span{background:#0601fc;font-size:.7rem;color:#fff;border-radius:.3rem .2rem;text-align:center;padding:.3rem;margin-bottom:3px}.jobs .container .list ul li .list-items div span.yellow{background-color:#fd9001}.jobs .container .list ul li .list-items div:nth-child(1){-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.main-footer{width:80%;margin:auto}.main-footer .container{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:4rem 0}.main-footer .container div{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;font-weight:bold}.main-footer .container div h4{font-size:.85rem;margin-bottom:1rem}.main-footer .container div p{font-size:1rem;color:#0f1137}.main-footer .container div:first-child{width:30%}.main-footer .container div ul{list-style-type:none}.main-footer .container div ul li{padding:.5rem 0;font-size:.81rem;color:#0f1137}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7rem
+}
+
+a {
+    text-decoration: none;
+    color: #9f9f7b;
+    font-weight: bold
+}
+
+section {
+    width: 80%;
+    margin: auto
+}
+
+.main-header {
+    margin: 3rem auto;
+    width: 80%
+}
+
+.main-header .container .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.main-header .container .navbar img {
+    height: 1.5rem
+}
+
+.main-header .container .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0
+}
+
+.main-header .container .navbar ul li {
+    list-style: none;
+    margin-left: .7rem
+}
+
+.main-header .container .navbar ul li hr {
+    width: 2rem;
+    color: #9f9f7b
+}
+
+.main-header .container .navbar ul:first-child {
+    margin-left: 0
+}
+
+.main-header .container .navbar a:hover {
+    color: #000
+}
+
+.showcase {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    height: 560px
+}
+
+.showcase .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 500px;
+    background: #E1EAF9;
+    border-radius: 2rem
+}
+
+.showcase .container>div {
+    display: block;
+    width: 50%
+}
+
+.showcase .container>div h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #0f1137;
+    padding: 0 5rem
+}
+
+.showcase .container>div h1 span {
+    color: #0601fd
+}
+
+.showcase .container>div form {
+    margin-top: 3.5rem;
+    height: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.showcase .container>div form input {
+    width: 70%;
+    height: 100%;
+    border: none;
+    background: #fff;
+    margin-left: 4rem;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    padding: 1.5rem;
+    font-size: 1rem
+}
+
+.showcase .container>div form input::-webkit-input-placeholder {
+    font-size: 1rem
+}
+
+.showcase .container>div form input:-ms-input-placeholder {
+    font-size: 1rem
+}
+
+.showcase .container>div form input::-ms-input-placeholder {
+    font-size: 1rem
+}
+
+.showcase .container>div form input::placeholder {
+    font-size: 1rem
+}
+
+.showcase .container>div form button {
+    width: 10%;
+    height: 100%;
+    border: none;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    background: #fff
+}
+
+.showcase .container img {
+    z-index: 0;
+    height: 90%;
+    margin: auto;
+    margin-top: 6.5rem;
+    margin-right: 2rem
+}
+
+.categories {
+    margin-top: 2rem;
+    margin-bottom: 5rem
+}
+
+.categories .container .categori-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-bottom: 2rem
+}
+
+.categories .container .categori-title .title {
+    color: #0f1137
+}
+
+.categories .container .boxes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[6];
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem
+}
+
+.categories .container .box {
+    background-color: #f0f5fd;
+    height: 10rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    text-align: center;
+    margin-top: .5rem
+}
+
+.categories .container .box h3 {
+    margin-top: .4rem;
+    color: #0f1137
+}
+
+.categories .container .box.active {
+    height: 11rem;
+    color: #fff;
+    background-color: #0601fc;
+    margin-top: 0
+}
+
+.categories .container .box.active h3 {
+    color: #fff
+}
+
+.jobs {
+    margin-top: 5rem
+}
+
+.jobs .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.jobs .container .filter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 30%
+}
+
+.jobs .container .filter form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: .8rem
+}
+
+.jobs .container .filter form input[type=checkbox] {
+    margin-right: .5rem;
+    background-color: blue
+}
+
+.jobs .container .filter h4 {
+    font-size: 1rem;
+    color: #9f9fb7;
+    padding-top: 2rem;
+    padding-bottom: 1rem
+}
+
+.jobs .container .filter label {
+    margin: .7rem 0
+}
+
+.jobs .container .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: centert;
+    -ms-flex-align: centert;
+    align-items: centert;
+    width: 100%;
+    margin-left: 8rem
+}
+
+.jobs .container .list h1 {
+    font-size: 2rem;
+    padding-left: 2rem;
+    margin: 2rem 0;
+    margin-top: 3rem;
+    color: #0f1137
+}
+
+.jobs .container .list ul {
+    width: 100%;
+    list-style-type: none
+}
+
+.jobs .container .list ul .none {
+    border: none
+}
+
+.jobs .container .list ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #9f9fb7;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding-right: 1rem
+}
+
+.jobs .container .list ul li img {
+    padding: 2rem
+}
+
+.jobs .container .list ul li .list-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%
+}
+
+.jobs .container .list ul li .list-items div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    font-size: 1rem
+}
+
+.jobs .container .list ul li .list-items div h3 {
+    font-size: .9rem;
+    color: #0f1137
+}
+
+.jobs .container .list ul li .list-items div small {
+    color: #9f9fb7
+}
+
+.jobs .container .list ul li .list-items div span {
+    background: #0601fc;
+    font-size: .7rem;
+    color: #fff;
+    border-radius: .3rem .2rem;
+    text-align: center;
+    padding: .3rem;
+    margin-bottom: 3px
+}
+
+.jobs .container .list ul li .list-items div span.yellow {
+    background-color: #fd9001
+}
+
+.jobs .container .list ul li .list-items div:nth-child(1) {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.main-footer {
+    width: 80%;
+    margin: auto
+}
+
+.main-footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 4rem 0
+}
+
+.main-footer .container div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-weight: bold
+}
+
+.main-footer .container div h4 {
+    font-size: .85rem;
+    margin-bottom: 1rem
+}
+
+.main-footer .container div p {
+    font-size: 1rem;
+    color: #0f1137
+}
+
+.main-footer .container div:first-child {
+    width: 30%
+}
+
+.main-footer .container div ul {
+    list-style-type: none
+}
+
+.main-footer .container div ul li {
+    padding: .5rem 0;
+    font-size: .81rem;
+    color: #0f1137
+}
